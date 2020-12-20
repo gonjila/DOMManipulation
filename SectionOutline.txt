@@ -1,0 +1,100 @@
+JAVASCRIPT TYPES
+-----------------
+1. Number				- რიცხვები
+2. String				- ასოები ან რამე ""ში ჩაწერილი
+3. Boolean				- true or false
+4. Undefined				- პასუხი არ არის
+5. Null					- says that the object is null. that means that there is nothing in this object.
+6. Symbol (new in ECMAScript 6)		- 
+7. Object				- არის ასევე data structure.
+
+JAVASCRIPT COMPARISONS
+-----------------
+!=	- not equal
+!==	- not equal value or not equal type
+==	- equal to
+===	- equal value and equal type
+>=	- მეტია ან ტოლია
+<=	- ნაკლებია ან ტოლია
+>	- მეტია
+<	- ნაკლებია
+
+JAVASCRIPT VARIABLES
+-----------------
+var					- (variable) ცვლადისთვის მნიშვნელობის მისანიჭებლად გამოიყენება.
+let (new in ECMAScript 6)		- 
+const (new in ECMAScript 6)		- 
+
+JAVASCRIPT CONDITIONALS
+-----------------
+if				- if (condition1) {  //  block of code to be executed if the condition is true }
+else if				- else if (condition2) {  //  block of code to be executed if the condition1 is false and condition2 is true }
+else				- else {  //  block of code to be executed if the condition is false }
+ternary operator		- 
+switch				- 
+
+
+JAVASCRIPT LOGICAL OPERATORS
+-----------------
+&&	- and
+||	- or
+!	- not
+
+JAVASCRIPT FUNCTIONS
+-----------------
+var a = function name() {}		- 
+function name() {}			- 
+return					- The return statement, stops the execution of a function and returns a value from that function.
+() => (new in ECMAScript 6)		
+
+JAVASCRIPT DATA STRUCTURES
+-----------------
+Array			- JavaScript arrays are used to store multiple values in a single variable. it`s a way to organise information. The first element in the array is 0, the second is 1, and so on.
+Object			- is more dynamic than array because there is properties and values. 
+
+JAVASCRIPT LOOPING
+-----------------
+for					- for (statement 1; statement 2; statement 3) {  // code block to be executed }
+						Statement 1 is executed (one time) before the execution of the code block.
+						Statement 2 defines the condition for executing the code block.
+						Statement 3 is executed (every time) after the code block has been executed.
+while					- while (condition) {  // code block to be executed }. Loops can execute a block of code as long as a specified condition is true.
+do/while 				- do {  // code block to be executed } while (condition);
+forEach (new in ECMAScript 5) 		- 
+
+
+JAVASCRIPT KEYWORDS
+-----------------
+break			- statement "jumps out" of a loop. 
+case
+catch
+class
+const
+continue		- statement "jumps over" one iteration in the loop. 
+debugger
+default
+delete
+do
+else
+export
+extends
+finally
+for
+function
+if
+import
+in
+instanceof
+new
+return
+super
+switch
+this
+throw
+try
+typeof
+var
+void
+while
+with
+yield

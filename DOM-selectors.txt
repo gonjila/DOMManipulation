@@ -1,0 +1,29 @@
+DOM Selectors
+--------------
+getElementsByTagName		- ამ სელექტორით ვეძებთ ელემენტს tagის სახელით. ელემენტებს იღებს როგორც array.
+getElementsByClassName		- ამ სელექტორით ვეძებთ ელემენტს classის სახელით. ელემენტებს იღებს როგორც array.
+getElementById			- ამ სელექტორით ვეძებთ ელემენტს idის სახელით. ელემენტებს იღებს როგორც array.		document.getElementById("...");
+
+querySelector			- document.querySelector("...");	ამით არის შესაძლებელი ზემოთ ჩამოთვლილთაგან სამივეს ფუნქციის შესრულება, მაგრამ თუ ერთნაირი მონიშვნა რამდენიმეა მაშინ პირველს ზე რეაგირებს. 
+querySelectorAll		- document.querySelectorAll("...");	ამ შემთხვევაში ყველა ერთნაირ მონიშვნაზე რეაგირებს.
+
+getAttribute			- ჯერ უნდა ავირჩიოთ ელემენტი ზედა სელექტორებით და შემდეგ ეს გამოვიყენოთ.
+setAttribute			- 
+
+##Changing Styles
+style.{property} //ok		- ვირჩევთ სელექტორს, შემდეგ style.property = "..."
+
+className //best		- სელექტორის არჩევის შემდეგ შეგვიძლია დავამატოთ .classname 
+classList //best		- შეგვიძლია გავიგოთ სელექტორს რა და რა class აქვს.
+
+classList.add			- classlistში classის დამატება შეგვიძლია.				querySelector("...").classList.add("...");
+classList.remove		- classlistში classის დამატება შეგვიძლია.				querySelector("...").classList.remove("...");
+classList.toggle		- სელექტორით აღებული მონიშვნას აუქმებს ან/და ააქტიურებს.		querySelector("...").classList.toggle("...");
+
+##Bonus
+innerHTML //DANGEROUS		- სელექტორზე დამატებით შევძლებთ HTML ფაილში ტექსტის შეცვლა		querySelector.innerHTML= "..."
+
+parentElement			- 
+children			- 
+
+##It is important to CACHE selectors in variables
