@@ -27,3 +27,9 @@ parentElement			-
 children			- 
 
 ##It is important to CACHE selectors in variables
+
+.createElement			- 
+.appendChild			- 
+.createTextNode			- 
+.removeChild			- 
+

@@ -2,16 +2,16 @@ var ul = document.querySelector("ul");
 var button = document.getElementById("button");
 var input = document.getElementById("input");
 
-function createList(){  
+function createListAndButton(){  
     var li = document.createElement("li");
     var btn = document.createElement("BUTTON");
-        li.appendChild(document.createTextNode(input.value));
-        li.setAttribute("class", input.value);
-        btn.appendChild(document.createTextNode("remove!"));
-        btn.setAttribute("class", input.value);
-        ul.appendChild(li);
-        ul.appendChild(btn);
-        input.value = "";
+    li.appendChild(document.createTextNode(input.value));
+    // li.setAttribute("class", input.value);
+    btn.appendChild(document.createTextNode("remove"));
+    // btn.setAttribute("class", input.value);
+    ul.appendChild(li);
+    li.appendChild(btn);
+    input.value = "";
 
     btn.addEventListener("click", function(){
         li.remove();
@@ -21,13 +21,13 @@ function createList(){
 
 function additemsafterclick(){
     if (input.value.length > 0){
-        createList()
+        createListAndButton()
     }
 }
 
 function addItemAfterKeypress(KeyboardEvent){
     if (input.value.length > 0 && KeyboardEvent.code === 'Enter'){
-        createList()
+        createListAndButton()
      } 
 }
 
